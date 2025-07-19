@@ -5,16 +5,16 @@ It reflects my journey in strengthening SQL skills through real-world scenarios�
 
 🙏 A heartfelt thank you to [Data With Danny](https://www.linkedin.com/company/datawithdanny/) for designing these thought-provoking and educational case studies. Your initiative has been instrumental in deepening my understanding of SQL and data analysis. 👏🏻
 
-# 📚 Table of Contents
-Please find the solution links for the case studies below. Simply click on the links to access each solution.
+# 📚 Find the Solutions
+You can find the solution links for each case study below. Simply click on a link to explore the detailed solution.
 
-Case Study #1: Danny's Diner
-Case Study #2: Pizza Runner
-Case Study #3: Foodie-Fi
-Case Study #4: Data Bank
-Case Study #5: Data Mart
-Case Study #6: Clique Bait
-Case Study #7: Balanced Tree
+Case Study #1: Danny's Diner<br>
+Case Study #2: Pizza Runner<br>
+Case Study #3: Foodie-Fi<br>
+Case Study #4: Data Bank<br>
+Case Study #5: Data Mart<br>
+Case Study #6: Clique Bait<br>
+Case Study #7: Balanced Tree<br>
 Case Study #8: Fresh Segments
 
 # 🧠 A Thought I’d Like to Share
