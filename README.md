@@ -28,5 +28,5 @@ If you’re ever stuck, curious, or just want to discuss SQL, data, or even some
 
 Thank you for being here, and for being respectful of this learning space.
 
-Warm regards, /n
+Warm regards,<br>
 Mohammad Zeeshan
