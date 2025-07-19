@@ -1,11 +1,11 @@
 # 8-Week-SQL-Challenge
-This repository serves as the solution for the 8 case studies from the #8WeekSQLChallenge.
+This repository presents my solutions to the 8 case studies from the #[8WeekSQLChallenge](https://8weeksqlchallenge.com/).
 
-It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills.
+It reflects my journey in strengthening SQL skills through real-world scenarios—highlighting my ability to write efficient queries, analyze data, and solve complex problems using SQL.
 
-A special thanks to Data with Danny for creating these insightful and engaging SQL case studies! 👋🏻
+🙏 A heartfelt thank you to Data With Danny for designing these thought-provoking and educational case studies. Your initiative has been instrumental in deepening my understanding of SQL and data analysis. 👏🏻
 
-📚 Table of Contents
+# 📚 Table of Contents
 Please find the solution links for the case studies below. Simply click on the links to access each solution.
 
 Case Study #1: Danny's Diner
