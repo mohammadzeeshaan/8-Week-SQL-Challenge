@@ -17,7 +17,7 @@ Case Study #6: Clique Bait
 Case Study #7: Balanced Tree
 Case Study #8: Fresh Segments
 
-# 🧠 Important Note Regarding My Solutions
+# 🧠 A Thought I’d Like to Share
 Hello Friends,
 
 These case studies are the result of hours of thought, learning, and growth. They are not just answers, but expressions of how I think, solve problems, and evolve as a data professional.
@@ -28,5 +28,5 @@ If you’re ever stuck, curious, or just want to discuss SQL, data, or even some
 
 Thank you for being here, and for being respectful of this learning space.
 
-Warm regards,
+Warm regards, /n
 Mohammad Zeeshan
