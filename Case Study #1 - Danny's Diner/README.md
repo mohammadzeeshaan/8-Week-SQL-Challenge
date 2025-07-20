@@ -16,8 +16,7 @@ Danny wants to analyze his restaurant’s customer data to gain insights into cu
 ***
 
 ## Entity Relationship Diagram
-
-<img width="1080" height="525" alt="image" src="https://github.com/user-attachments/assets/c9666d87-bbb0-4529-9bef-c6556af06459" />
+<img width="1080" height="525" alt="image" src="https://github.com/user-attachments/assets/9b970271-99e1-4323-9fd5-03606e7128fa" />
 
 ***
 
@@ -59,3 +58,29 @@ ORDER BY
 ***
 
 **2. How many days has each customer visited the restaurant?**
+````sql
+SELECT 
+  customer_id, 
+  COUNT(DISTINCT order_date) AS visit_count
+FROM dannys_diner.sales
+GROUP BY customer_id;
+````
+#### 🧩 Basic Steps
+- Select customer_id and count the number of distinct visit dates using COUNT(DISTINCT order_date).
+- This gives the number of unique days each customer visited.
+- Use GROUP BY customer_id to calculate this count for each customer separately.
+
+  #### Answer:
+| customer_id | visit_count |
+| ----------- | ----------- |
+| A           | 4          |
+| B           | 6          |
+| C           | 2          |
+
+- Customer A visited 4 times.
+- Customer B visited 6 times.
+- Customer C visited 2 times.
+
+***
+
+**3. What was the first item from the menu purchased by each customer?**
