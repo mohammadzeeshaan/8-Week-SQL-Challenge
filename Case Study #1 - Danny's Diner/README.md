@@ -16,6 +16,7 @@ Danny wants to analyze his restaurant’s customer data to gain insights into cu
 ***
 
 ## Entity Relationship Diagram
+
 <img width="1080" height="525" alt="image" src="https://github.com/user-attachments/assets/c9666d87-bbb0-4529-9bef-c6556af06459" />
 
 ***
@@ -23,3 +24,38 @@ Danny wants to analyze his restaurant’s customer data to gain insights into cu
 ## Question and Solution
 **1. What is the total amount each customer spent at the restaurant?**
 
+````sql
+SELECT 
+    s.customer_id, 
+    SUM(m.price) AS total_sales
+FROM 
+    dannys_diner.sales s
+JOIN 
+    dannys_diner.menu m 
+    ON s.product_id = m.product_id
+GROUP BY 
+    s.customer_id
+ORDER BY 
+    s.customer_id ASC;
+````
+
+
+  #### 🧩 Basic Steps
+- Join sales and menu tables on product_id to include price details.
+- Select customer_id and calculate total using SUM(m.price).
+- Group records by customer_id to aggregate totals per customer.
+
+  #### Answer:
+| customer_id | total_sales |
+| ----------- | ----------- |
+| A           | 76          |
+| B           | 74          |
+| C           | 36          |
+
+- Customer A spent $76.
+- Customer B spent $74.
+- Customer C spent $36.
+
+***
+
+**2. How many days has each customer visited the restaurant?**
